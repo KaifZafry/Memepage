@@ -1,0 +1,15 @@
+.cards{
+    width: 20%;
+    max-height: 400px;
+    border: 2px solid black;
+}
+.flex{
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.bg-dark{
+    background-color:brown;
+    color: #fff;
+}
