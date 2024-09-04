@@ -14,7 +14,7 @@ const [memeData, setMemeData] = useState([])
 
 const handlescroll = () => {
     if(window.scrollY+ window.innerHeight>= document.body.scrollHeight){
-        console.log("srolled to the bottom of the document now next data will reload")
+       // console.log("srolled to the bottom of the document now next data will reload")
         fetchData() // Fetch more memes when user scrolls to the bottom of the page
     }
    
