@@ -13,6 +13,7 @@ const Header = () => {
   return (
     <div className='bg-dark'>
       <ul className='flex justify-around p-4'>
+        <img src="./assets/" alt=""/>
         <li><a href="/">Header</a></li>
         <li><a href="/about">About</a></li>
         <li>
